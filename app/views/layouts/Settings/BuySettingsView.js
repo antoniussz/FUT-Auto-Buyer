@@ -12,7 +12,7 @@ export const buySettingsView = function () {
   return `<div class='buyer-settings-wrapper buy-settings-view'>
       ${generateTextInput("Buy Price", "", { idAbBuyPrice }, "<br/>")}
       ${generateTextInput(
-        "No. of cards to buy",
+        "Number of cards to buy",
         10,
         { idAbCardCount },
         "(Works only with Buy price)"
